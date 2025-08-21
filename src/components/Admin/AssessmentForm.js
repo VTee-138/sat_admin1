@@ -123,7 +123,7 @@ export default function AssessmentForm({
                 >
                   Chọn ảnh
                 </Button>
-                {/* {formData?.imgUrl && (
+                {formData?.imgUrl && (
                   <div className="flex items-center gap-2">
                     <img
                       src={formData.imgUrl}
@@ -134,7 +134,7 @@ export default function AssessmentForm({
                       ✓ Đã tải ảnh
                     </Typography>
                   </div>
-                )} */}
+                )}
               </div>
             </div>
 

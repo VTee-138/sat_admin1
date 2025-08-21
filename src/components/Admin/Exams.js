@@ -1279,8 +1279,6 @@ export default function Exams() {
         toast.success(successMessage);
         return finalUpdatedQuestionsArray;
       } catch (error) {
-        console.error("Error during image upload process:", error);
-        toast.error("Lỗi khi upload ảnh: " + error.message);
         toast.success(successMessage + " (ảnh sử dụng base64)");
         return questionsArray; // Trả về với base64 images nếu upload failed
       }
@@ -2072,8 +2070,6 @@ export default function Exams() {
         toast.success(successMessage);
         return finalUpdatedQuestionsArray;
       } catch (error) {
-        console.error("Error during image upload process:", error);
-        toast.error("Lỗi khi upload ảnh: " + error.message);
         toast.success(successMessage + " (ảnh sử dụng base64)");
         return questionsArray; // Trả về với base64 images nếu upload failed
       }
